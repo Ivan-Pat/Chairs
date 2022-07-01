@@ -1,0 +1,40 @@
+@mixin min450 {
+    @media (min-width: 450px) {
+        @content;
+    }
+ }
+ @mixin min600 {
+    @media (min-width: 600px) {
+        @content;
+    }
+ }
+@mixin min760 {
+    @media (min-width: 760px) {
+        @content;
+    }
+ }
+ @mixin min950 {
+    @media (min-width: 950px) {
+        @content;
+    }
+ }
+ @mixin min1024 {
+    @media (min-width: 1024px) {
+        @content;
+    }
+ }
+ @mixin min1200 {
+    @media (min-width: 1195px) {
+        @content;
+    }
+ }
+ @mixin min1440 {
+    @media (min-width: 1440px) {
+        @content;
+    }
+ }
+ @mixin min1550 {
+    @media (min-width: 1550px) {
+        @content;
+    }
+ }

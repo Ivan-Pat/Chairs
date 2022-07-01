@@ -1,0 +1,21 @@
+.section-catalog {}
+.catalog-wrapper {
+    padding: 10px;
+    max-width: $maxWidth;
+    margin: 0 auto;
+    h2 {
+        font-family: $fontIter;
+        font-weight: 900;
+        font-size: min(2.7rem, 9vw);
+        text-align: center;
+        color: $lightBlue;
+    }
+}
+.catalog-body {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
